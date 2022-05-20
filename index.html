@@ -13,27 +13,44 @@
 </head>
 
 <body>
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
 
-                <span class="fs-4">Mercedes Astorima</span>
-            </a>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark p-2">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">Mercedes Astorima</a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse " id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Sobre Mí</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Galería</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ">Contacto</a>
+                        </li>
+                    </ul>
 
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-            </ul>
-        </header>
-    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
     <main>
+        <!-- Hero Section  -->
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-                <div class="col-10 col-sm-12 col-lg-6">
-                    <img src="img/mercedesAstorimaHeroWrap.png" class=" img-fluid" alt="Bootstrap Themes" loading="
+                <div class=" col-sm-12 col-lg-6">
+                    <img src="img/mercedesAstorimaBlack.jpeg" class=" img-fluid" alt="Bootstrap Themes" loading="
                         lazy">
                 </div>
                 <div class="col-lg-6">
@@ -46,23 +63,97 @@
                 </div>
             </div>
         </div>
-        <div class="bg-dark text-secondary px-4 py-5 ">
-            <div class="row col-lg-8 mx-auto py-5">
-                <div class="col-4">
-                    <img src="img/BymardImage.png" class=" img-fluid" alt="Bootstrap Themes" loading="
-                        lazy">
-                </div>
-                <div class="col-8 ">
-                    <h1 class="display-5 fw-bold lh-1 mb-3">Destaca lo mejor de ti</h1>
-                    <p class="lead">Soy maquilladora apasionada por la belleza.</p>
-                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 boton">Contactemos</button>
+        <!-- About Section -->
+        <div class="container marketing bg-dark text-secondary g-5 py-5 text-white">
+            <div class="row flex col-lg-8 mx-auto py-5">
+
+                <div class="row featurette align-items-center">
+                    <div class="col-md-7 order-md-2">
+                        <h2 class="featurette-heading fw-normal lh-1">Hola, soy Mercedes Astorima <span
+                                class="text-muted">See
+                                for yourself.</span></h2>
+                        <p class="lead">Makeup artist and hairstyle con más de 12 años de experiencia.</p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 boton">Más sobre
+                                mí</button>
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-5 order-md-1">
+                        <img src="img/BymardImage.png" class="img-fluid" alt="">
 
                     </div>
                 </div>
 
             </div>
         </div>
+
+
+
+
+
+        <!-- START THE FEATURETTES -->
+
+
+
+
+
+        <div class="mt-5 pt-5 text-center">
+
+            <h2 class="fw-bold">Mis mejores trabajos</h2>
+            <a href="" class="primary-link">Quiero ver más</a>
+
+        </div>
+
+        <!-- Gallery Section -->
+
+        <div class="container-sm g-5 py-5 p-0">
+            <div id="myCarousel" class="carousel slide pointer-event w-100" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                        aria-label="Slide 1" aria-current="true"></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"
+                        class=""></button>
+                    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"
+                        class=""></button>
+
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/IMG_2395.jpg 6,960×4,640 pixeles.jpeg" class="img-fluid" alt="">
+
+
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/IMG_8978.jpg 6,960×4,640 pixeles.jpeg" class="img-fluid" alt="">
+
+
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="./img/IMG_0194.jpg" class="img-fluid" alt="">
+
+
+                    </div>
+
+
+
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+
+
     </main>
 
 
